@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin Panel </title>
+    <link rel="stylesheet" href="~/admin/vendors/feather/feather.css">
+    <link rel="stylesheet" href="~/admin/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/admin/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="~/admin/vendors/typicons/typicons.css">
+    <link rel="stylesheet" href="~/admin/vendors/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="~/admin/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="~/admin/js/select.dataTables.min.css">
+    <link rel="stylesheet" href="~/admin/css/vertical-layout-light/style.css">
+    <link rel="shortcut icon" href="~/admin/images/favicon.png" />
+@*     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ *@
+
+
+ <style>
+     .table-responsive table thead tr th {
+    padding-left: 0 !important;
+}
+     .table-responsive table tbody tr td {
+    padding-left: 0 !important;
+}
+ </style>
+</head>
+
+<body class="with-welcome-text">
+    <div class="container-scroller">
+
+        <!-- Header Start -->
+        <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+                <div class="me-3">
+                    <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
+                        <span class="icon-menu"></span>
+                    </button>
+                </div>
+                <div>
+                    <a class="navbar-brand brand-logo" href="../index.html">
+                        <img src="./assets/images/logo-mini.svg" alt="logo" />
+                    </a>
+                    <a class="navbar-brand brand-logo-mini" href="../index.html">
+                        <img src="../assets/images/logo-mini.svg" alt="logo" />
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-top">
+                <ul class="navbar-nav">
+                    <li class="nav-item font-weight-semibold d-none d-lg-block ms-0">
+                        <h1 class="welcome-text">Admin Panel <span class="text-black fw-bold">Mexanizator.az</span></h1>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item d-none d-lg-block">
+                        <div id="datepicker-popup" class="input-group date datepicker navbar-date-picker">
+                            <span class="input-group-addon input-group-prepend border-right">
+                                <span class="icon-calendar input-group-text calendar-icon"></span>
+                            </span>
+                            <input type="text" class="form-control">
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <form class="search-form" action="#">
+                            <i class="icon-search"></i>
+                            <input type="search" class="form-control" placeholder="Search Here" title="Search here">
+                        </form>
+                    </li>
+
+
+                    <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+                        <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                            <p class="mb-1 mt-3 font-weight-semibold">Aysel Abilova</p>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+                            <div class="dropdown-header text-center">
+                            </div>
+                            <a href="login.html" class="dropdown-item">
+                                <i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> Login
+                                <a href="register.html" class="dropdown-item">
+                                    <i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> Register
+
+
+                                    <a href="#" class="dropdown-item">
+                                        <i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out
+                                    </a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                        data-bs-toggle="offcanvas">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- Header End -->
+
+
+        <div class="container-fluid page-body-wrapper">
+
+            <!-- Thema Setting Start -->
+            <div class="theme-setting-wrapper">
+                <div id="settings-trigger"><i class="ti-settings"></i></div>
+                <div id="theme-settings" class="settings-panel">
+                    <i class="settings-close ti-close"></i>
+                    <p class="settings-heading">SIDEBAR SKINS</p>
+                    <div class="sidebar-bg-options selected" id="sidebar-light-theme">
+                        <div class="img-ss rounded-circle bg-light border me-3"></div>Light
+                    </div>
+                    <div class="sidebar-bg-options" id="sidebar-dark-theme">
+                        <div class="img-ss rounded-circle bg-dark border me-3"></div>Dark
+                    </div>
+                    <p class="settings-heading mt-2">HEADER SKINS</p>
+                    <div class="color-tiles mx-0 px-4">
+                        <div class="tiles success"></div>
+                        <div class="tiles warning"></div>
+                        <div class="tiles danger"></div>
+                        <div class="tiles info"></div>
+                        <div class="tiles dark"></div>
+                        <div class="tiles default"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="right-sidebar" class="settings-panel">
+                <i class="settings-close ti-close"></i>
+                <ul class="nav nav-tabs border-top" id="setting-panel" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="todo-tab" data-bs-toggle="tab" href="#todo-section" role="tab"
+                           aria-controls="todo-section" aria-expanded="true">TO DO LIST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="chats-tab" data-bs-toggle="tab" href="#chats-section" role="tab"
+                           aria-controls="chats-section">CHATS</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="setting-content">
+                    <div class="tab-pane fade show active scroll-wrapper" id="todo-section" role="tabpanel"
+                         aria-labelledby="todo-section">
+                        <div class="add-items d-flex px-3 mb-0">
+                            <form class="form w-100">
+                                <div class="form-group d-flex">
+                                    <input type="text" class="form-control todo-list-input" placeholder="Add To-do">
+                                    <button type="submit" class="add btn btn-primary todo-list-add-btn" id="add-task">Add</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="list-wrapper px-3">
+                            <ul class="d-flex flex-column-reverse todo-list">
+                                <li>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="checkbox" type="checkbox">
+                                            Team review meeting at 3.00 PM
+                                        </label>
+                                    </div>
+                                    <i class="remove ti-close"></i>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="checkbox" type="checkbox">
+                                            Prepare for presentation
+                                        </label>
+                                    </div>
+                                    <i class="remove ti-close"></i>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="checkbox" type="checkbox">
+                                            Resolve all the low priority tickets due today
+                                        </label>
+                                    </div>
+                                    <i class="remove ti-close"></i>
+                                </li>
+                                <li class="completed">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="checkbox" type="checkbox" checked>
+                                            Schedule meeting for next week
+                                        </label>
+                                    </div>
+                                    <i class="remove ti-close"></i>
+                                </li>
+                                <li class="completed">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="checkbox" type="checkbox" checked>
+                                            Project review
+                                        </label>
+                                    </div>
+                                    <i class="remove ti-close"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <h4 class="px-3 text-muted mt-5 fw-light mb-0">Events</h4>
+                        <div class="events pt-4 px-3">
+                            <div class="wrapper d-flex mb-2">
+                                <i class="ti-control-record text-primary me-2"></i>
+                                <span>Feb 11 2018</span>
+                            </div>
+                            <p class="mb-0 font-weight-thin text-gray">Creating component page build a js</p>
+                            <p class="text-gray mb-0">The total number of sessions</p>
+                        </div>
+                        <div class="events pt-4 px-3">
+                            <div class="wrapper d-flex mb-2">
+                                <i class="ti-control-record text-primary me-2"></i>
+                                <span>Feb 7 2018</span>
+                            </div>
+                            <p class="mb-0 font-weight-thin text-gray">Meeting with Alisa</p>
+                            <p class="text-gray mb-0 ">Call Sarah Graves</p>
+                        </div>
+                    </div>
+                    <!-- To do section tab ends -->
+                    <div class="tab-pane fade" id="chats-section" role="tabpanel" aria-labelledby="chats-section">
+                        <div class="d-flex align-items-center justify-content-between border-bottom">
+                            <p class="settings-heading border-top-0 mb-3 pl-3 pt-0 border-bottom-0 pb-0">Friends</p>
+                            <small class="settings-heading border-top-0 mb-3 pt-0 border-bottom-0 pb-0 pr-3 fw-normal">See All</small>
+                        </div>
+                        <ul class="chat-list">
+                            <li class="list active">
+                                <div class="profile">
+                                    <img src="../assets/images/faces/face1.jpg" alt="image"><span class="online"></span>
+                                </div>
+                                <div class="info">
+                                    <p>Thomas Douglas</p>
+                                    <p>Available</p>
+                                </div>
+                                <small class="text-muted my-auto">19 min</small>
+                            </li>
+                            <li class="list">
+                                <div class="profile">
+                                    <img src="../assets/images/faces/face2.jpg" alt="image"><span class="offline"></span>
+                                </div>
+                                <div class="info">
+                                    <div class="wrapper d-flex">
+                                        <p>Catherine</p>
+                                    </div>
+                                    <p>Away</p>
+                                </div>
+                                <div class="badge badge-success badge-pill my-auto mx-2">4</div>
+                                <small class="text-muted my-auto">23 min</small>
+                            </li>
+                            <li class="list">
+                                <div class="profile">
+                                    <img src="../assets/images/faces/face3.jpg" alt="image"><span class="online"></span>
+                                </div>
+                                <div class="info">
+                                    <p>Daniel Russell</p>
+                                    <p>Available</p>
+                                </div>
+                                <small class="text-muted my-auto">14 min</small>
+                            </li>
+                            <li class="list">
+                                <div class="profile">
+                                    <img src="../assets/images/faces/face4.jpg" alt="image"><span class="offline"></span>
+                                </div>
+                                <div class="info">
+                                    <p>James Richardson</p>
+                                    <p>Away</p>
+                                </div>
+                                <small class="text-muted my-auto">2 min</small>
+                            </li>
+                            <li class="list">
+                                <div class="profile">
+                                    <img src="../assets/images/faces/face5.jpg" alt="image"><span class="online"></span>
+                                </div>
+                                <div class="info">
+                                    <p>Madeline Kennedy</p>
+                                    <p>Available</p>
+                                </div>
+                                <small class="text-muted my-auto">5 min</small>
+                            </li>
+                            <li class="list">
+                                <div class="profile">
+                                    <img src="../assets/images/faces/face6.jpg" alt="image"><span class="online"></span>
+                                </div>
+                                <div class="info">
+                                    <p>Sarah Graves</p>
+                                    <p>Available</p>
+                                </div>
+                                <small class="text-muted my-auto">47 min</small>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- chat tab ends -->
+                </div>
+            </div>
+            <!-- Thema Setting End -->
+            <!-- Sidebar -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index" asp-controller="Dashboard">
+                            <i class="mdi mdi-grid-large menu-icon"></i>
+                            <span class="menu-title">Dashboard</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#form-elements" data-bs-toggle="collapse" aria-expanded="false"
+                           aria-controls="ui-basic">
+                           <?xml version="1.0" encoding="iso-8859-1"?>
+
+<svg style="margin-right:1rem;" version="1.1" width="22" height="24" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 505.4 505.4" style="enable-background:new 0 0 505.4 505.4;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M437.1,233.45c14.8-10.4,24.6-27.7,24.6-47.2c0-31.9-25.8-57.7-57.7-57.7c-31.9,0-57.7,25.8-57.7,57.7
+			c0,19.5,9.7,36.8,24.6,47.2c-12.7,4.4-24.3,11.2-34.1,20c-13.5-11.5-29.4-20.3-46.8-25.5c21.1-12.8,35.3-36.1,35.3-62.6
+			c0-40.4-32.7-73.1-73.1-73.1c-40.4,0-73.1,32.8-73.1,73.1c0,26.5,14.1,49.8,35.3,62.6c-17.2,5.2-32.9,13.9-46.3,25.2
+			c-9.8-8.6-21.2-15.3-33.7-19.6c14.8-10.4,24.6-27.7,24.6-47.2c0-31.9-25.8-57.7-57.7-57.7s-57.7,25.8-57.7,57.7
+			c0,19.5,9.7,36.8,24.6,47.2C28.5,247.25,0,284.95,0,329.25v6.6c0,0.2,0.2,0.4,0.4,0.4h122.3c-0.7,5.5-1.1,11.2-1.1,16.9v6.8
+			c0,29.4,23.8,53.2,53.2,53.2h155c29.4,0,53.2-23.8,53.2-53.2v-6.8c0-5.7-0.4-11.4-1.1-16.9H505c0.2,0,0.4-0.2,0.4-0.4v-6.6
+			C505.2,284.85,476.8,247.15,437.1,233.45z M362.3,186.15c0-23,18.7-41.7,41.7-41.7s41.7,18.7,41.7,41.7
+			c0,22.7-18.3,41.2-40.9,41.7c-0.3,0-0.5,0-0.8,0s-0.5,0-0.8,0C380.5,227.45,362.3,208.95,362.3,186.15z M194.9,165.35
+			c0-31.5,25.6-57.1,57.1-57.1s57.1,25.6,57.1,57.1c0,30.4-23.9,55.3-53.8,57c-1.1,0-2.2,0-3.3,0c-1.1,0-2.2,0-3.3,0
+			C218.8,220.65,194.9,195.75,194.9,165.35z M59.3,186.15c0-23,18.7-41.7,41.7-41.7s41.7,18.7,41.7,41.7c0,22.7-18.3,41.2-40.9,41.7
+			c-0.3,0-0.5,0-0.8,0s-0.5,0-0.8,0C77.6,227.45,59.3,208.95,59.3,186.15z M125.5,320.15H16.2c4.5-42.6,40.5-76,84.2-76.3
+			c0.2,0,0.4,0,0.6,0s0.4,0,0.6,0c20.8,0.1,39.8,7.8,54.5,20.3C141.7,279.75,131,298.95,125.5,320.15z M366.8,359.95
+			c0,20.5-16.7,37.2-37.2,37.2h-155c-20.5,0-37.2-16.7-37.2-37.2v-6.8c0-62.1,49.6-112.9,111.3-114.7c1.1,0.1,2.3,0.1,3.4,0.1
+			s2.3,0,3.4-0.1c61.7,1.8,111.3,52.6,111.3,114.7V359.95z M378.7,320.15c-5.5-21.1-16-40-30.3-55.6c14.8-12.8,34-20.5,55-20.7
+			c0.2,0,0.4,0,0.6,0s0.4,0,0.6,0c43.7,0.3,79.7,33.7,84.2,76.3H378.7z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+                            <span class="menu-title">İstifadəçilər</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="form-elements">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="CreateUser" asp-controller="User">İsdifadəçi əlavə Et</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Index" asp-controller="User" asp-route-role="rehber">Rəhbərlərin siyahısı</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Index" asp-controller="User" asp-route-role="operator">Operator İstifadəçilərin <br /> siyahısı</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Index" asp-controller="User" asp-route-role="admin">Administrativ istifadəçilərin <br /> siyahısı</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ui-basic" data-bs-toggle="collapse" aria-expanded="false"
+                           aria-controls="ui-basic">
+                          <?xml version="1.0" encoding="UTF-8"?>
+                         <svg style="margin-right:1rem;" xmlns="http://www.w3.org/2000/svg" id="Line_Expand" data-name="Line Expand" viewBox="0 0 64 64" width="22" height="24"><path d="M50,36.75a.75.75,0,0,0,.75-.75V32a.75.75,0,0,0-1.5,0v4A.75.75,0,0,0,50,36.75Z"/><path d="M47,36.75a.75.75,0,0,0,.75-.75V32a.75.75,0,0,0-1.5,0v4A.75.75,0,0,0,47,36.75Z"/><path d="M44,36.75a.75.75,0,0,0,.75-.75V32a.75.75,0,0,0-1.5,0v4A.75.75,0,0,0,44,36.75Z"/><path d="M55,48.25A3.75,3.75,0,1,0,58.75,52,3.754,3.754,0,0,0,55,48.25Zm0,6A2.25,2.25,0,1,1,57.25,52,2.252,2.252,0,0,1,55,54.25Z"/><path d="M15,40.25A5.75,5.75,0,1,0,20.75,46,5.757,5.757,0,0,0,15,40.25Zm0,10A4.25,4.25,0,1,1,19.25,46,4.255,4.255,0,0,1,15,50.25Z"/><path d="M60.75,45.421V33.279a4.762,4.762,0,0,0-3.819-4.657l-3.181-.637V20a.75.75,0,0,0-.75-.75h-.75V14.165l3.321-1.917a.751.751,0,0,0,.275-1.025l-1.5-2.6a.749.749,0,0,0-1.025-.274l-5.2,3a.751.751,0,0,0-.375.65v7.25H47a.75.75,0,0,0-.75.75v6.485l-5.691-1.138L34.048,7.675A2.246,2.246,0,0,0,33.5,3.25H6.5a2.244,2.244,0,0,0-.25,4.475V30.577A17.838,17.838,0,0,0,.382,35.952h0a.751.751,0,0,0,.013.87l1.615,2.2A14.743,14.743,0,1,0,28.951,50.75h17.4a8.746,8.746,0,1,0,14.4-5.329ZM49.25,12.433l4.172-2.409.75,1.3-3.047,1.758a.751.751,0,0,0-.375.65V19.25h-1.5Zm-1.5,8.317h4.5v6.935l-4.5-.9ZM40.75,36V26.915l15.887,3.177a3.258,3.258,0,0,1,2.61,3.158H54a.75.75,0,0,0-.75.75v1A3.754,3.754,0,0,0,57,38.75h2.25v1.5H55a11.694,11.694,0,0,0-10.226,6H32.75V46a17.615,17.615,0,0,0-2.63-9.25H40A.75.75,0,0,0,40.75,36Zm18.5-1.25v2.5H57A2.252,2.252,0,0,1,54.75,35v-.25ZM19,16.25H17.75V7.75H29.28l6.3,17.1L31.1,22.261l.875-1.516a.75.75,0,0,0-1.3-.75l-2.5,4.33a.75.75,0,1,0,1.3.75l.875-1.515,5.9,3.408V35.25H29.091a17.815,17.815,0,0,0-7.341-5.659V19A2.753,2.753,0,0,0,19,16.25ZM20.25,19V29.044a17.664,17.664,0,0,0-2.5-.559V17.75H19A1.252,1.252,0,0,1,20.25,19Zm19,7.134V35.25h-1.5V26.535a.764.764,0,0,0-.046-.259L30.878,7.75h1.6ZM5.75,5.5a.75.75,0,0,1,.75-.75h27a.75.75,0,0,1,0,1.5H6.5A.75.75,0,0,1,5.75,5.5Zm10.5,2.25V28.313c-.415-.029-.828-.063-1.25-.063a17.664,17.664,0,0,0-4.25.52V7.75Zm-7,0V29.221c-.508.175-1.01.367-1.5.587V7.75Zm17.719,43.9-.556-.661a.749.749,0,0,0-1.056-.093h0a.75.75,0,0,0-.093,1.057l.93,1.108a13.33,13.33,0,0,1-3.652,3.822l-.151-.855a.75.75,0,1,0-1.477.26l.253,1.433A13.154,13.154,0,0,1,16.091,59.2l.3-.818a.749.749,0,0,0-.448-.961h0a.75.75,0,0,0-.961.448l-.495,1.36a13.123,13.123,0,0,1-5.131-1.256l.661-.555a.749.749,0,0,0,.093-1.056h0a.75.75,0,0,0-1.057-.093l-1.108.93A13.33,13.33,0,0,1,4.12,53.542l.855-.151a.75.75,0,1,0-.26-1.477l-1.433.253a13.154,13.154,0,0,1-1.477-5.076l.818.3a.749.749,0,0,0,.961-.448h0a.75.75,0,0,0-.448-.961l-1.36-.495a13.123,13.123,0,0,1,1.256-5.131l.555.661a.749.749,0,0,0,1.056.093h0a.75.75,0,0,0,.093-1.057l-.93-1.108A13.33,13.33,0,0,1,7.458,35.12l.151.855a.75.75,0,1,0,1.477-.26l-.253-1.433a13.154,13.154,0,0,1,5.076-1.477l-.3.818a.75.75,0,0,0,.448.961h0a.75.75,0,0,0,.961-.448l.495-1.36a13.14,13.14,0,0,1,5.131,1.255l-.661.556a.749.749,0,0,0-.093,1.056h0a.75.75,0,0,0,1.057.093l1.108-.93a13.33,13.33,0,0,1,3.822,3.652l-.855.151a.75.75,0,1,0,.26,1.477l1.433-.253A13.154,13.154,0,0,1,28.2,44.909l-.818-.3a.749.749,0,0,0-.961.448h0a.75.75,0,0,0,.448.962l1.36.495A13.14,13.14,0,0,1,26.969,51.647Zm2.408-2.4A14.737,14.737,0,0,0,2.859,37.643l-.933-1.271A16.239,16.239,0,0,1,31.25,46v1a.75.75,0,0,0,.75.75H45.222a.752.752,0,0,0,.668-.408h0A10.209,10.209,0,0,1,55,41.75h4.25v2.608A8.732,8.732,0,0,0,46.7,49.25ZM55,59.25A7.25,7.25,0,1,1,62.25,52,7.258,7.258,0,0,1,55,59.25Z"/></svg>
+
+                            <span class="menu-title">Mexanizatorlar</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="ui-basic">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="CreateMechanizator" asp-controller="User">Mexanizator əlavə et</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Index" asp-controller="User" asp-route-role="mechanizator">Mexanizatorların siyahısı</a>
+                                </li>
+                          
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <main class="main-width">
+            @*      <div class="row">
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">  *@
+
+                           @RenderBody()
+        @*                     </div>
+                        </div>
+                    </div>
+                </div>  *@
+
+            </main>
+
+    @*         <script>
+            window.onload = function() {
+            document.getElementById("form-elements").classList.remove("show");
+            document.getElementById("ui-basic").classList.remove("show");
+            };
+            </script> *@
+            <script src="~/admin/js/checkFin.js"></script>
+            <script src="~/admin/vendors/js/vendor.bundle.base.js"></script>
+            <script src="~/admin/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+            <script src="~/admin/vendors/chart.js/Chart.min.js"></script>
+            <script src="~/admin/vendors/progressbar.js/progressbar.min.js"></script>
+            <script src="~/admin/js/off-canvas.js"></script>
+            <script src="~/admin/js/hoverable-collapse.js"></script>
+            <script src="~/admin/js/template.js"></script>
+            <script src="~/admin/js/settings.js"></script>
+            <script src="~/admin/js/todolist.js"></script>
+            <script src="~/admin/js/jquery.cookie.js" type="text/javascript"></script>
+            <script src="~/admin/js/dashboard.js"></script>
+            <script src="~/admin/js/proBanner.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.deps.json
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.runtimeconfig.json
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.AssemblyInfo.cs
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\obj\Debug\net6.0\refint\Mechanic.Data.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.genruntimeconfig.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Data\obj\Debug\net6.0\ref\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.deps.json
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.runtimeconfig.json
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.csproj.AssemblyReference.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.AssemblyInfoInputs.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.AssemblyInfo.cs
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.csproj.CoreCompileInputs.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\obj\Debug\net6.0\refint\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.genruntimeconfig.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Data\obj\Debug\net6.0\ref\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.deps.json
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.runtimeconfig.json
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\bin\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.csproj.AssemblyReference.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.AssemblyInfoInputs.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.AssemblyInfo.cs
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.csproj.CoreCompileInputs.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\obj\Debug\net6.0\refint\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\obj\Debug\net6.0\Mechanic.Data.genruntimeconfig.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Data\obj\Debug\net6.0\ref\Mechanic.Data.dll

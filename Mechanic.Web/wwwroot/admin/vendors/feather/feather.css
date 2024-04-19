@@ -1,0 +1,756 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "feather";
+  src: url("fonts/feather-webfont.eot");
+  src: url("fonts/feather-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/feather-webfont.woff") format("woff"),
+    url("fonts/feather-webfont.ttf") format("truetype"),
+    url("fonts/feather-webfont.svg#feather") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Character Mapping Method */
+
+[data-icon]:before {
+  display: inline-block;
+  font-family: "feather";
+  content: attr(data-icon);
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* CSS Class Mapping Method */
+
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  font-family: "feather";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye:before {
+  content: "\e000";
+}
+
+.icon-paper-clip:before {
+  content: "\e001";
+}
+
+.icon-mail:before {
+  content: "\e002";
+}
+
+.icon-mail:before {
+  content: "\e002";
+}
+
+.icon-toggle:before {
+  content: "\e003";
+}
+
+.icon-layout:before {
+  content: "\e004";
+}
+
+.icon-link:before {
+  content: "\e005";
+}
+
+.icon-bell:before {
+  content: "\e006";
+}
+
+.icon-lock:before {
+  content: "\e007";
+}
+
+.icon-unlock:before {
+  content: "\e008";
+}
+
+.icon-ribbon:before {
+  content: "\e009";
+}
+
+.icon-image:before {
+  content: "\e010";
+}
+
+.icon-signal:before {
+  content: "\e011";
+}
+
+.icon-target:before {
+  content: "\e012";
+}
+
+.icon-clipboard:before {
+  content: "\e013";
+}
+
+.icon-clock:before {
+  content: "\e014";
+}
+
+.icon-clock:before {
+  content: "\e014";
+}
+
+.icon-watch:before {
+  content: "\e015";
+}
+
+.icon-air-play:before {
+  content: "\e016";
+}
+
+.icon-camera:before {
+  content: "\e017";
+}
+
+.icon-video:before {
+  content: "\e018";
+}
+
+.icon-disc:before {
+  content: "\e019";
+}
+
+.icon-printer:before {
+  content: "\e020";
+}
+
+.icon-monitor:before {
+  content: "\e021";
+}
+
+.icon-server:before {
+  content: "\e022";
+}
+
+.icon-cog:before {
+  content: "\e023";
+}
+
+.icon-heart:before {
+  content: "\e024";
+}
+
+.icon-paragraph:before {
+  content: "\e025";
+}
+
+.icon-align-justify:before {
+  content: "\e026";
+}
+
+.icon-align-left:before {
+  content: "\e027";
+}
+
+.icon-align-center:before {
+  content: "\e028";
+}
+
+.icon-align-right:before {
+  content: "\e029";
+}
+
+.icon-book:before {
+  content: "\e030";
+}
+
+.icon-layers:before {
+  content: "\e031";
+}
+
+.icon-stack:before {
+  content: "\e032";
+}
+
+.icon-stack-2:before {
+  content: "\e033";
+}
+
+.icon-paper:before {
+  content: "\e034";
+}
+
+.icon-paper-stack:before {
+  content: "\e035";
+}
+
+.icon-search:before {
+  content: "\e036";
+}
+
+.icon-zoom-in:before {
+  content: "\e037";
+}
+
+.icon-zoom-out:before {
+  content: "\e038";
+}
+
+.icon-reply:before {
+  content: "\e039";
+}
+
+.icon-circle-plus:before {
+  content: "\e040";
+}
+
+.icon-circle-minus:before {
+  content: "\e041";
+}
+
+.icon-circle-check:before {
+  content: "\e042";
+}
+
+.icon-circle-cross:before {
+  content: "\e043";
+}
+
+.icon-square-plus:before {
+  content: "\e044";
+}
+
+.icon-square-minus:before {
+  content: "\e045";
+}
+
+.icon-square-check:before {
+  content: "\e046";
+}
+
+.icon-square-cross:before {
+  content: "\e047";
+}
+
+.icon-microphone:before {
+  content: "\e048";
+}
+
+.icon-record:before {
+  content: "\e049";
+}
+
+.icon-skip-back:before {
+  content: "\e050";
+}
+
+.icon-rewind:before {
+  content: "\e051";
+}
+
+.icon-play:before {
+  content: "\e052";
+}
+
+.icon-pause:before {
+  content: "\e053";
+}
+
+.icon-stop:before {
+  content: "\e054";
+}
+
+.icon-fast-forward:before {
+  content: "\e055";
+}
+
+.icon-skip-forward:before {
+  content: "\e056";
+}
+
+.icon-shuffle:before {
+  content: "\e057";
+}
+
+.icon-repeat:before {
+  content: "\e058";
+}
+
+.icon-folder:before {
+  content: "\e059";
+}
+
+.icon-umbrella:before {
+  content: "\e060";
+}
+
+.icon-moon:before {
+  content: "\e061";
+}
+
+.icon-thermometer:before {
+  content: "\e062";
+}
+
+.icon-drop:before {
+  content: "\e063";
+}
+
+.icon-sun:before {
+  content: "\e064";
+}
+
+.icon-cloud:before {
+  content: "\e065";
+}
+
+.icon-cloud-upload:before {
+  content: "\e066";
+}
+
+.icon-cloud-download:before {
+  content: "\e067";
+}
+
+.icon-upload:before {
+  content: "\e068";
+}
+
+.icon-download:before {
+  content: "\e069";
+}
+
+.icon-location:before {
+  content: "\e070";
+}
+
+.icon-location-2:before {
+  content: "\e071";
+}
+
+.icon-map:before {
+  content: "\e072";
+}
+
+.icon-battery:before {
+  content: "\e073";
+}
+
+.icon-head:before {
+  content: "\e074";
+}
+
+.icon-briefcase:before {
+  content: "\e075";
+}
+
+.icon-speech-bubble:before {
+  content: "\e076";
+}
+
+.icon-anchor:before {
+  content: "\e077";
+}
+
+.icon-globe:before {
+  content: "\e078";
+}
+
+.icon-box:before {
+  content: "\e079";
+}
+
+.icon-reload:before {
+  content: "\e080";
+}
+
+.icon-share:before {
+  content: "\e081";
+}
+
+.icon-marquee:before {
+  content: "\e082";
+}
+
+.icon-marquee-plus:before {
+  content: "\e083";
+}
+
+.icon-marquee-minus:before {
+  content: "\e084";
+}
+
+.icon-tag:before {
+  content: "\e085";
+}
+
+.icon-power:before {
+  content: "\e086";
+}
+
+.icon-command:before {
+  content: "\e087";
+}
+
+.icon-alt:before {
+  content: "\e088";
+}
+
+.icon-esc:before {
+  content: "\e089";
+}
+
+.icon-bar-graph:before {
+  content: "\e090";
+}
+
+.icon-bar-graph-2:before {
+  content: "\e091";
+}
+
+.icon-pie-graph:before {
+  content: "\e092";
+}
+
+.icon-star:before {
+  content: "\e093";
+}
+
+.icon-arrow-left:before {
+  content: "\e094";
+}
+
+.icon-arrow-right:before {
+  content: "\e095";
+}
+
+.icon-arrow-up:before {
+  content: "\e096";
+}
+
+.icon-arrow-down:before {
+  content: "\e097";
+}
+
+.icon-volume:before {
+  content: "\e098";
+}
+
+.icon-mute:before {
+  content: "\e099";
+}
+
+.icon-content-right:before {
+  content: "\e100";
+}
+
+.icon-content-left:before {
+  content: "\e101";
+}
+
+.icon-grid:before {
+  content: "\e102";
+}
+
+.icon-grid-2:before {
+  content: "\e103";
+}
+
+.icon-columns:before {
+  content: "\e104";
+}
+
+.icon-loader:before {
+  content: "\e105";
+}
+
+.icon-bag:before {
+  content: "\e106";
+}
+
+.icon-ban:before {
+  content: "\e107";
+}
+
+.icon-flag:before {
+  content: "\e108";
+}
+
+.icon-trash:before {
+  content: "\e109";
+}
+
+.icon-expand:before {
+  content: "\e110";
+}
+
+.icon-contract:before {
+  content: "\e111";
+}
+
+.icon-maximize:before {
+  content: "\e112";
+}
+
+.icon-minimize:before {
+  content: "\e113";
+}
+
+.icon-plus:before {
+  content: "\e114";
+}
+
+.icon-minus:before {
+  content: "\e115";
+}
+
+.icon-check:before {
+  content: "\e116";
+}
+
+.icon-cross:before {
+  content: "\e117";
+}
+
+.icon-move:before {
+  content: "\e118";
+}
+
+.icon-delete:before {
+  content: "\e119";
+}
+
+.icon-menu:before {
+  content: "\e120";
+}
+
+.icon-archive:before {
+  content: "\e121";
+}
+
+.icon-inbox:before {
+  content: "\e122";
+}
+
+.icon-outbox:before {
+  content: "\e123";
+}
+
+.icon-file:before {
+  content: "\e124";
+}
+
+.icon-file-add:before {
+  content: "\e125";
+}
+
+.icon-file-subtract:before {
+  content: "\e126";
+}
+
+.icon-help:before {
+  content: "\e127";
+}
+
+.icon-open:before {
+  content: "\e128";
+}
+
+.icon-ellipsis:before {
+  content: "\e129";
+}
+
+/* Add Css */
+
+.main-width {
+  width: 100%;
+  user-select: none;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.with_th {
+  width: 100px;
+}
+
+.flex_table_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .navbar-menu-wrapper {
+  padding-left: 0rem !important;
+}
+
+.table td img {
+  border-radius: 0 !important;
+}
+
+.createnew {
+  text-decoration: none;
+  color: white;
+}
+
+.savebutn{
+  background-color: #9BB437;
+  border: 1px solid #9BB437 ;
+  padding: 0.6rem 2rem;
+  border-radius: 5px;
+}
+
+.savebutn:hover{
+  background-color: #889e32;
+  transition: all 0.3s;
+}
+
+.save_btn_link{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.cancellink,
+.addnew {
+  text-decoration: none;
+  color: black;
+}
+
+.detail_btn {
+  text-decoration: none;
+  color: black;
+}
+.edit_btn {
+  text-decoration: none;
+  color: black;
+}
+.delete_btn {
+  text-decoration: none;
+  color: black;
+}
+
+.btn_hover:hover .detail_btn,
+.btn_hover:hover .edit_btn,
+.btn_hover:hover .delete_btn,
+.btn_hover:hover .addnew {
+  color: white;
+}
+
+.textarea_style {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  resize: none;
+  color: rgb(202, 197, 197);
+}
+
+
+.detail_content {
+  padding: 1.5rem 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title_detail,
+.name_detail,
+.surname_detail,
+.img_detail_head {
+  border-bottom: 1px solid #8080804f;
+  width: 100%;
+  gap: 0.3rem;
+  display: flex;
+  flex-direction: column;
+}
+.title_text,
+.name_text,
+.surname_text,
+.img_detail {
+  margin-bottom: 1rem;
+}
+
+.img_detail img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.img_detail img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+
+.back_button button{
+  background-color: #f8f8f8;
+}
+
+.btn-light.btn-light, .btn-light.btn-secondary {
+  border-color: var(--bs-btn-hover-border-color) !important;
+}
+
+.btn-outline-warning {
+  border: 1px solid #ffaf00 !important;
+}
+
+.btn-outline-info {
+  border: 1px solid #52CDFF !important;
+}
+
+.btn-outline-success{
+  border: 1px solid #34B1AA !important;
+}
+
+
+
+.file-input {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+  .file-input span {
+      font-size: 18px;
+      margin-right: 6px;
+  }
+
+  .file-input input[type="file"] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+      width: 100%;
+      cursor: pointer;
+  }
+
+@media screen and (max-width: 767px) {
+    .modal-content {
+        width: 100% !important;
+    }
+}

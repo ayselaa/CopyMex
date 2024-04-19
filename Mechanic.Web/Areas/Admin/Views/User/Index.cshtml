@@ -1,0 +1,98 @@
+﻿@*@model Mechanic.Web.Areas.Admin.ViewModels.User.TestFin*@
+@model Mechanic.Web.Areas.Admin.ViewModels.User.UserIndexVM
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+
+<div class="row">
+    <div class="col-md-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <div class="flex_table_top">
+
+                    <h1 class="card-title">@Model.Role siyahısı</h1>
+                </div>
+                <div class="table-responsive">
+                    <table id="example" class="table">
+                        <thead>
+                            <tr>
+                                <th>Tam adı</th>
+                                <th>Telefon Nömrəsi</th>
+                                <th>FİN</th>
+                                <th>#</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Users)
+                            {
+                                <tr>
+                                    <td><span style="font-weight:bold">@item.FullName</span></td>
+                                    <td><span style="font-weight:bold">@item.PhoneNumber</span></td>
+                                    <td><span style="font-weight:bold">@item.FIN</span></td>
+
+                                    @*<td width="46%">
+                                        @if (!string.IsNullOrEmpty(item.Image))
+                                        {
+                                            <img src="data:image/png;base64, @item.Image" alt="Alternate Text" />
+                                        }
+                                    </td>*@
+
+                                <td>
+                                    <a class="float-right m-1" href="@Url.Action("Update", "User",new { id = item.Id})"><i class="fas fa-pencil-alt"></i></a>
+                                    <a class="float-right m-1" href="@Url.Action("Show", "User",new { id = item.Id})"><i class=" fas fa-info"></i></a>
+
+                                </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+                       
+
+
+<script>
+    function CheckFin() {
+
+    let fin = document.getElementById("FINInput").value;
+    console.log(fin);
+    fetch('/admin/user/GetFin?fin=' + fin)
+        .then((response) => {
+            return response.json();
+            if (response.ok) {
+                return response.json();
+            } else {
+                console.log("bla sef var");
+            }
+
+        })
+        .then((data) => {
+            //const myObj = JSON.parse(data);
+            let text = "<table border=1 >";
+            text += `<tr><td><img height="150px" src="data:image/png;base64, ${data['photo']}"/></td></tr>`
+            for (let x in data) {
+                if (x != "photo") {
+                    text += "<tr><td>" + x.toLowerCase() + ": " + data[x] + "</td></tr>";
+                }
+
+            }
+            var image = new Image();
+
+            image.src = data['photo'];
+
+            text += "</table>";
+            document.getElementById('table').appendChild(image);
+            document.getElementById("table").innerHTML = text;
+        });
+}
+</script>

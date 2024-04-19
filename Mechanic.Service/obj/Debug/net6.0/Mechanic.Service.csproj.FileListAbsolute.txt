@@ -1,0 +1,51 @@
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.deps.json
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.runtimeconfig.json
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.pdb
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.AssemblyInfo.cs
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\refint\Mechanic.Service.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.pdb
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.genruntimeconfig.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\ref\Mechanic.Service.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\bin\Debug\net6.0\Mechanic.Data.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\bin\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.csproj.CopyComplete
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.deps.json
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.runtimeconfig.json
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.pdb
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\bin\Debug\net6.0\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\bin\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.csproj.AssemblyReference.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.AssemblyInfoInputs.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.AssemblyInfo.cs
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.csproj.CoreCompileInputs.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\Mechanic.93541482.Up2Date
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\refint\Mechanic.Service.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.pdb
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.genruntimeconfig.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.Service\obj\Debug\net6.0\ref\Mechanic.Service.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.deps.json
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.runtimeconfig.json
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\bin\Debug\net6.0\Mechanic.Service.pdb
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\bin\Debug\net6.0\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\bin\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.csproj.AssemblyReference.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.AssemblyInfoInputs.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.AssemblyInfo.cs
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.csproj.CoreCompileInputs.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\Mechanic.93541482.Up2Date
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\refint\Mechanic.Service.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.pdb
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\Mechanic.Service.genruntimeconfig.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.Service\obj\Debug\net6.0\ref\Mechanic.Service.dll

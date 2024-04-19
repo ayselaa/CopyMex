@@ -1,0 +1,45 @@
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.AssemblyInfo.cs
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.FinCheckService.deps.json
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.FinCheckService.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.FinCheckService.pdb
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.Data.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.csproj.CopyComplete
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\obj\Debug\net6.0\refint\Mechanic.FinCheckService.dll
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.pdb
+C:\Users\HP\Desktop\Mechanic\Mechanic\Mechanic.FinCheckService\obj\Debug\net6.0\ref\Mechanic.FinCheckService.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.FinCheckService.deps.json
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.FinCheckService.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.FinCheckService.pdb
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.csproj.AssemblyReference.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.AssemblyInfoInputs.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.AssemblyInfo.cs
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.csproj.CoreCompileInputs.cache
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.3F3BF0DF.Up2Date
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\obj\Debug\net6.0\refint\Mechanic.FinCheckService.dll
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.pdb
+C:\Users\asger\Desktop\IMexanizator-development\Mechanic.FinCheckService\obj\Debug\net6.0\ref\Mechanic.FinCheckService.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.FinCheckService.deps.json
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.FinCheckService.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.FinCheckService.pdb
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.Data.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\bin\Debug\net6.0\Mechanic.Data.pdb
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.csproj.AssemblyReference.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.AssemblyInfoInputs.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.AssemblyInfo.cs
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.csproj.CoreCompileInputs.cache
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.3F3BF0DF.Up2Date
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\obj\Debug\net6.0\refint\Mechanic.FinCheckService.dll
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\obj\Debug\net6.0\Mechanic.FinCheckService.pdb
+C:\Users\asger\Desktop\IMexanizator back\Mechanic.FinCheckService\obj\Debug\net6.0\ref\Mechanic.FinCheckService.dll
